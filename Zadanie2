@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+array = new Array(10);
+s = '';
+s2 = '';
+min = 30;
+for (i = 0; i<array.length; i++){
+    a = Math.random()*10+10;
+    array[i] = Math.floor(a);
+    s = s + '  ' + array[i];
+    if (array[i] <= min){
+        min = array[i]
+        s2 = 'Минимум: ' + min + ' Индекс: ' + i
+    }
+}
+alert(s);
+alert(s2)
+</script>
+
+</body>
+</html>
