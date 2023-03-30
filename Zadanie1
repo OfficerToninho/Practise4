@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+</head>
+<body>
+<script>
+
+    st = prompt('Введите x')
+    x = parseFloat(st)
+    st = prompt('Введите y')
+    y = parseFloat(st)
+
+    z2 = Math.sqrt(x + (Math.sqrt(Math.abs(y))) + ( ( 6*x )/((y^2)+5) )  )
+    alert(z2);
+
+</script>
+</body>
+</html>
