@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    date = new Date()
+    year = date.getFullYear() - 1
+    mm = new Array('Вс','Пн','Вт','Ср','Чт','Пт','Сб')
+    date1 = new Date(year,8,1)
+    alert(date1)
+</script>
+</body>
+</html>
