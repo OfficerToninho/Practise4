@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    st = prompt('Введите слово:')
+    n = st.length;
+    count = 0;
+    for( i = 0; i < n; i++){
+        letter = st.charAt(i)
+        letter2 = st.charAt((n-1)-i)
+        if (letter == letter2){
+            count += 1
+        }
+    }
+    if (count == n){
+        alert('Слово полиндром')
+    }
+    else{
+        alert('Слово не палиндром')
+    }
+</script>
+</body>
+</html>
